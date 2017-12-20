@@ -78,15 +78,10 @@ Examples:
   const person = null;
 
   function getPerson() {
-  
     if (condition) {
-    
       return new Person('Nicholas');
-      
     } else {
-    
       return null;
-      
     }
   }
 
