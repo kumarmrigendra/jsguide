@@ -43,7 +43,9 @@ The `@author` field gives you credit for having created the file.
 Each indentation level is made up of two spaces. Do not use tabs.
 
   if (true) {
+  
     doSomething();
+    
   }
 
 ## Primitive Literals String And Number Declaration
@@ -55,9 +57,13 @@ Strings should always use single quotes and should always appear on a single lin
 Numbers should be written as decimal integers, e-notation integers, hexadecimal integers or floating-point decimals with at least one digit before and one digit after the decimal point. Never use octal literals.
 
   const count = 10;
+  
   const price = 10.0;
+  
   const price = 10.00;
+  
   const num = 0xA2;
+  
   const num = 1e23;
 
 The special value `null` should be used only in the following situations:
@@ -72,10 +78,15 @@ Examples:
   const person = null;
 
   function getPerson() {
+  
     if (condition) {
+    
       return new Person('Nicholas');
+      
     } else {
+    
       return null;
+      
     }
   }
 
